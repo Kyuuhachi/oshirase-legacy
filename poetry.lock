@@ -1,0 +1,52 @@
+[[package]]
+name = "dbus-python"
+version = "1.2.16"
+description = "Python bindings for libdbus"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pycairo"
+version = "1.20.1"
+description = "Python interface for cairo"
+category = "main"
+optional = false
+python-versions = ">=3.6, <4"
+
+[[package]]
+name = "pygobject"
+version = "3.40.1"
+description = "Python bindings for GObject Introspection"
+category = "main"
+optional = false
+python-versions = ">=3.6, <4"
+
+[package.dependencies]
+pycairo = ">=1.16.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "8a06069741d9d4da908834320243b5a4f631d5b351f08ecc245a0b4d88febe3e"
+
+[metadata.files]
+dbus-python = [
+    {file = "dbus-python-1.2.16.tar.gz", hash = "sha256:11238f1d86c995d8aed2e22f04a1e3779f0d70e587caffeab4857f3c662ed5a4"},
+]
+pycairo = [
+    {file = "pycairo-1.20.1-cp310-cp310-win32.whl", hash = "sha256:736ffc618e851601e861a630293e5c910ef016b83b2d035a336f83a367bf56ab"},
+    {file = "pycairo-1.20.1-cp310-cp310-win_amd64.whl", hash = "sha256:261c69850d4b2ec03346c9745bad2a835bb8124e4c6961b8ceac503d744eb3b3"},
+    {file = "pycairo-1.20.1-cp36-cp36m-win32.whl", hash = "sha256:6db823a18e7be1eb2a29c28961f2f01e84d3b449f06be7338d05ac8f90592cd5"},
+    {file = "pycairo-1.20.1-cp36-cp36m-win_amd64.whl", hash = "sha256:5525da2d8de912750dd157752aa96f1f0a42a437c5625e85b14c936b5c6305ae"},
+    {file = "pycairo-1.20.1-cp37-cp37m-win32.whl", hash = "sha256:c8c2bb933974d91c5d19e54b846d964de177e7bf33433bf34ac34c85f9b30e94"},
+    {file = "pycairo-1.20.1-cp37-cp37m-win_amd64.whl", hash = "sha256:9a32e4a3574a104aa876c35d5e71485dfd6986b18d045534c6ec510c44d5d6a7"},
+    {file = "pycairo-1.20.1-cp38-cp38-win32.whl", hash = "sha256:0d7a6754d410d911a46f00396bee4be96500ccd3d178e7e98aef1140e3dd67ae"},
+    {file = "pycairo-1.20.1-cp38-cp38-win_amd64.whl", hash = "sha256:b605151cdd23cedb31855b8666371b6e26b80f02753a52c8b8023a916b1df812"},
+    {file = "pycairo-1.20.1-cp39-cp39-win32.whl", hash = "sha256:e800486b51fffeb11ed867b4f2220d446e2a60a81a73b7c377123e0cbb72f49d"},
+    {file = "pycairo-1.20.1-cp39-cp39-win_amd64.whl", hash = "sha256:f123d3818e30b77b7209d70a6dcfd5b4e34885f9fa539d92dd7ff3e4e2037213"},
+    {file = "pycairo-1.20.1.tar.gz", hash = "sha256:1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b"},
+]
+pygobject = [
+    {file = "PyGObject-3.40.1.tar.gz", hash = "sha256:6fb599aa59ceb9dd05fafb0d72b3862943e7d5e85c8ef6c74856bc6d4321cbab"},
+]

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oshirase"
+version = "1.0"
+description = "A minimal notification daemon that doesn't get in your way"
+authors = ["Kyuuhachi <caagr98@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dbus-python = "^1.2.16"
+PyGObject = "^3.40.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+oshirase = "oshirase:__main__"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
